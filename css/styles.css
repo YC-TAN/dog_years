@@ -1,6 +1,32 @@
+html {
+    box-sizing: border-box;
+}
+
+*, 
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 body {
-    background-image: url('/images/adorable-white-little-puppy-isolated-blue.jpg');
+    background-image: url('/img/puppy-background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+.title {
+    padding: 10px;
+    font-size: 32px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 700;
+    border: 2px dashed black;
+    margin: 16px
+}
+
+.content {
+    padding: 10px;
+    font-size: 16px;
+    margin: 16px;
 }
